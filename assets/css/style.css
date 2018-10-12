@@ -1,8 +1,9 @@
 .gameBody{
     float: left;
     align-self: center;
-    margin-right: 400px;
+    padding-right: 400px;
     border: 30px;
+    border-color: deepskyblue;
 }
 
 .wins{
