@@ -1,0 +1,21 @@
+.gameBody{
+    float: left;
+}
+
+.wins{
+    float: left;
+}
+
+.losses{
+    float: left;
+}
+
+.guesses{
+    float: left;
+}
+
+body{
+    text-decoration-color: deepskyblue;
+    background-color: indigo;
+    text-align: center;
+}
