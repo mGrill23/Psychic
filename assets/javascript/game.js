@@ -8,20 +8,24 @@ var winsNum = document.getElementById("wins-count");
 var guessNum = document.getElementById("guess-count");
 var lossesNum = document.getElementById("losses-count");
 
-document.onkeyup = function(event) {
-    var randomNum = Math.floor(Math.random() * compChoices.length);
-    var compChoice = compChoices[randomNum];
+var randomNum = Math.floor(Math.random() * compChoices.length);
+var compChoice = compChoices[randomNum];
 
+document.onkeyup = function(event) {
+    
+    randomNum = Math.floor(Math.random() * compChoices.length);
     var userGuess = event.key;
 
     if (userGuess === compChoice){
         wins++;
         guesses = 15;
+        compChoice = compChoices[randomNum];
     }
 
     else if (userGuess != compChoice && guesses == 0) {
         losses++;
         guesses = 15;
+        compChoice = compChoices[randomNum];
     }
 
     else{
