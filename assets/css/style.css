@@ -1,5 +1,7 @@
 .gameBody{
     float: left;
+    align-self: center;
+    
 }
 
 .wins{
