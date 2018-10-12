@@ -38,5 +38,5 @@ document.onkeyup = function(event) {
     }
 
 
-}
+};
 
