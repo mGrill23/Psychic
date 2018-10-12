@@ -20,16 +20,21 @@ document.onkeyup = function(event) {
         wins++;
         guesses = 15;
         compChoice = compChoices[randomNum];
+        winsNum.textContent = wins;
+        guessNum.textContent = guesses;
     }
 
     else if (userGuess != compChoice && guesses == 0) {
         losses++;
         guesses = 15;
         compChoice = compChoices[randomNum];
+        lossesNum.textContent = losses;
+        guessNum.textContent = guesses;
     }
 
     else{
         guesses--;
+        guessNum.textContent = guesses;
     }
 
 
