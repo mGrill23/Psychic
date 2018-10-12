@@ -1,7 +1,8 @@
 .gameBody{
     float: left;
     align-self: center;
-    
+    margin-right: 400px;
+    border: 30px;
 }
 
 .wins{
@@ -17,7 +18,7 @@
 }
 
 body{
-    text-decoration-color: deepskyblue;
+    text-anchor: deepskyblue;
     background-color: indigo;
     text-align: center;
 }
